@@ -51,7 +51,7 @@
       }
     ],
     "imageResize": true,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "cssOptimize": true,
     "lazyLoad": true,
     "robotsSwitcher": true,
