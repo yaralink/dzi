@@ -1205,7 +1205,7 @@ a {
 .cid-sSCklSgOXM {
   padding-top: 2rem;
   padding-bottom: 3rem;
-  background: #ffffff;
+  background: #060606;
 }
 .cid-sSCklSgOXM .google-map {
   height: 30rem;
@@ -3946,7 +3946,7 @@ a {
   margin: auto;
 }
 .cid-sSCcTGtNKt .iconfont-wrapper {
-  color: #ffffff !important;
+  color: #b4b4b4 !important;
   font-size: 1.5rem;
   padding-right: 0.5rem;
   display: flex;
@@ -4025,6 +4025,11 @@ a {
 }
 .cid-sSCcTGtNKt .navbar.collapsed.opened .dropdown-menu {
   top: 0;
+}
+@media (min-width: 992px) {
+  .cid-sSCcTGtNKt .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3rem);
+  }
 }
 .cid-sSCcTGtNKt .navbar.collapsed .dropdown-menu .dropdown-submenu {
   left: 0 !important;
@@ -4181,7 +4186,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #b4b4b4;
 }
 .cid-sSCcTGtNKt button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
